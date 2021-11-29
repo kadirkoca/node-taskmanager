@@ -4,7 +4,7 @@ const userRoutes = require('./routes/user')
 const taskRoutes = require('./routes/task')
 
 const app = express()
-const port = process.env.APP_PORT
+const port = process.env.PORT
 
 app.use(express.json())
 app.use(userRoutes)
